@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.astro/
+.wrangler/
+
+# Webflow Cloud build artifacts
+clouduser*
+.webflow/
+
+.env
+.env.*
+.dev.vars*
+!.env.example
+
+npm-debug.log*
+.DS_Store

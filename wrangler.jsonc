@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "webflow-cloud-astro",
+  "main": "@astrojs/cloudflare/entrypoints/server",
+  "compatibility_date": "2025-03-03",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "binding": "ASSETS",
+    "directory": "./dist/client"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
